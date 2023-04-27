@@ -1,0 +1,22 @@
+{
+  "manifest_version": 2,
+  "name": "6NewsNow",
+  "version": "1.0",
+  "description": "Save up to 6 news articles and read them before saving more.",
+  "icons": {
+    "48": "icon48.png",
+    "128": "icon128.png"
+  },
+  "browser_action": {
+    "default_icon": "icon48.png",
+    "default_popup": "popup.html"
+  },
+  "background": {
+    "scripts": ["background.js"],
+    "persistent": false
+  },
+  "permissions": [
+    "activeTab",
+    "storage"
+  ]
+}
